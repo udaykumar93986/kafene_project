@@ -1,0 +1,66 @@
+.outer_wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+    margin-top: 100px;
+}
+
+.inner_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+.filter_wrapper {
+    width: 180px;
+}
+
+.filter_option {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter_option p{
+    margin: 24px 0;
+}
+
+.filter_checkbox {
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.filter_checkbox input{
+    margin-right: 12px;
+}
+
+.order_table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order_table tr{
+    vertical-align: middle;
+}
+
+.order_table th{
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.order_table td {
+    background-color: #fff;
+    border-bottom: 4px solid #f6f7fb;
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.secondary-text {
+    color: #8c8c8c;
+}
+
+.primary-text{
+    color: rgba(0,0,0,.8);
+    font-weight: 500;
+}
